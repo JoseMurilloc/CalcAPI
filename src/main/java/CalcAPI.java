@@ -37,9 +37,7 @@ public class CalcAPI {
                 var numberOne = (long) jsonObject.get("numberOne");
                 var numberTwo = (long) jsonObject.get("numberTwo");
 
-                var total = basic.sum(numberOne, numberTwo);
-
-                return total;
+                return basic.sum(numberOne, numberTwo);
             }catch (Exception e){
                 return e.getMessage();
             }
@@ -55,9 +53,7 @@ public class CalcAPI {
                 var numberOne = (long) jsonObject.get("numberOne");
                 var numberTwo = (long) jsonObject.get("numberTwo");
 
-                var total = basic.subtraction(numberOne, numberTwo);
-
-                return total;
+                return basic.subtraction(numberOne, numberTwo);
             }catch (Exception e){
                 return e.getMessage();
             }
@@ -73,9 +69,7 @@ public class CalcAPI {
                 var numberOne = (long) jsonObject.get("numberOne");
                 var numberTwo = (long) jsonObject.get("numberTwo");
 
-                var total = basic.multiplication(numberOne, numberTwo);
-
-                return total;
+                return basic.multiplication(numberOne, numberTwo);
             }catch (Exception e){
                 return e.getMessage();
             }
@@ -91,9 +85,7 @@ public class CalcAPI {
                 var numberOne = (long) jsonObject.get("numberOne");
                 var numberTwo = (long) jsonObject.get("numberTwo");
 
-                var total = basic.division(numberOne, numberTwo);
-
-                return total;
+                return basic.division(numberOne, numberTwo);
             }catch (Exception e){
                 return e.getMessage();
             }
@@ -108,9 +100,7 @@ public class CalcAPI {
                 var numberOne = (long) jsonObject.get("numberOne");
                 var numberTwo = (long) jsonObject.get("numberTwo");
 
-                var total = advance.potency(numberOne, numberTwo);
-
-                return total;
+                return advance.potency(numberOne, numberTwo);
             }catch (Exception e){
                 return e.getMessage();
             }
@@ -138,9 +128,7 @@ public class CalcAPI {
                 var numberOne = (long) jsonObject.get("numberOne");
                 var numberTwo = (long) jsonObject.get("numberTwo");
 
-                var total = advance.percentage(numberOne, numberTwo);
-
-                return total;
+                return advance.percentage(numberOne, numberTwo);
             }catch (Exception e){
                 return e.getMessage();
             }
